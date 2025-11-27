@@ -1,0 +1,108 @@
+.container {
+    max-width: 1200px;
+    /* Задай максимальную ширину для контента */
+    margin: 0 auto;
+    /* Центрируем контент по горизонтали */
+    padding: 0 20px;
+    /* Добавь отступы слева и справа */
+}
+
+/* Стили для верхней части header */
+.header__top {
+    display: flex;
+    /* Используем flexbox для выравнивания элементов в строку */
+    justify-content: space-between;
+    /* Размещаем элементы по краям контейнера */
+    align-items: center;
+    /* Выравниваем элементы по вертикали по центру */
+    padding: 10px 0;
+    /* Отступы сверху и снизу */
+}
+
+.logo img {
+    max-width: 150px;
+    /* Ограничь максимальную ширину логотипа */
+    height: auto;
+    /* Автоматическая высота для сохранения пропорций */
+}
+
+/* Стили для контактной информации */
+.menu__list li:first-child,
+.menu__list li:nth-child(2) {
+    font-size: 14px;
+    /* Уменьшим размер шрифта для контактов */
+}
+
+/* Разделительная линия */
+.header hr {
+    border: none;
+    /* Убираем стандартный вид разделителя */
+    height: 1px;
+    /* Задаем высоту линии */
+    background-color: #ccc;
+    /* Цвет линии */
+    margin: 10px 0;
+    /* Отступы сверху и снизу */
+}
+
+/* Стили для основного меню */
+.menu__list {
+    list-style: none;
+    /* Убираем маркеры списка */
+    padding: 0;
+    margin: 0;
+    display: flex;
+    /* Flexbox для горизонтального меню */
+    justify-content: space-around;
+    /* Равномерное распределение элементов */
+}
+
+.menu__item {
+    margin: 0 10px;
+    /* Отступы между пунктами меню */
+}
+
+.menu__link {
+    text-decoration: none;
+    /* Убираем подчеркивание ссылок */
+    color: #333;
+    /* Цвет текста ссылок */
+}
+
+
+//*Если чо
+.news {
+    margin-top: 20px;
+}
+
+.news__item {
+    width: 380px;
+    height: 478px;
+    background-color: #F5F5F5;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.news__item img {
+    width: 100%;
+    height: auto;
+}
+
+.new__info {
+    height: 190px;
+    position: relative;
+}
+
+.new__heading {
+    font-size: 20px;
+}
+
+.new__end {
+    justify-content: space-between;
+    position: absolute;
+    bottom: 10px;
+}
+
+.date {
+    color: #888888;
+}
