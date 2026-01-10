@@ -58,8 +58,8 @@ body {
 
 .header__top {
     justify-content: space-between;
-    margin-bottom: 20px;
-
+    margin-bottom: 32px;
+    align-items: center;
 }
 
 .flex {
@@ -87,13 +87,11 @@ body {
 .mail__text {
     text-decoration-line: underline;
 }
-.hr{
-    margin-top: 32px;
-}
 
 .menu {
     justify-content: space-between;
-    margin-top: 10px;
+    margin-top: 16px;
+    gap: 44px;
 
 }
 
@@ -103,16 +101,13 @@ body {
 }
 
 .call {
+    gap: 4px;
+    margin-left: 28px;
     font-weight: 400;
     font-size: 16px;
     display: flex;
     align-items: center;
 }
-
-.call img {
-    margin-right: 5px;
-}
-
 
 .intro {
     margin-top: 80px;
@@ -123,6 +118,8 @@ body {
 }
 
 .intro__title {
+    min-width: 580px;
+    line-height: 1.2;
     font-size: 60px;
 }
 
@@ -167,6 +164,7 @@ body {
 }
 
 .prode1 {
+    line-height: 1.2;
     font-size: 48px;
 }
 
@@ -262,16 +260,18 @@ footer {
 }
 
 .topFooter {
-    justify-content: space-between;
+    gap: 420px;
 }
 
 .footerMenu {
-    gap: 57px;
+    min-width: 555px;
+    justify-content: space-between;
 }
 
 .footerMenu__item {
     flex-direction: column;
     gap: 24px;
+    line-height: 1.2;
 }
 
 .footerMenu a {
@@ -280,6 +280,9 @@ footer {
 }
 
 .company {
+    color: #FFFFFF;
+    line-height: 1.2;
+    font-size: 14px;
     text-align: center;
     margin-top: 73px;
 }
